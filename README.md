@@ -1,95 +1,16 @@
-# Job Portal Frontend
+# React + Vite
 
-A modern Job Portal frontend built with React, Vite, Redux Toolkit, Tailwind CSS, and Shadcn UI.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- User Authentication
-- Recruiter Dashboard
-- Student Dashboard
-- Company Management
-- Job Posting
-- Job Applications
-- Responsive Design
-- Protected Routes
-- Toast Notifications
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Tech Stack
+## React Compiler
 
-- React
-- Vite
-- Redux Toolkit
-- React Router DOM
-- Axios
-- Tailwind CSS
-- Shadcn UI
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Installation
+## Expanding the ESLint configuration
 
-Clone the repository
-
-```bash
-git clone https://github.com/your-username/job-portal-frontend.git
-```
-
-Go to project folder
-
-```bash
-cd job-portal-frontend
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Create a `.env` file
-
-```env
-VITE_API_URL=http://localhost:8000/api/v1
-```
-
-Run the project
-
-```bash
-npm run dev
-```
-
-Build for production
-
-```bash
-npm run build
-```
-
-Preview production build
-
-```bash
-npm run preview
-```
-
-## Folder Structure
-
-```
-src/
-components/
-hooks/
-redux/
-pages/
-utils/
-public/
-```
-
-## Deployment
-
-Frontend can be deployed on:
-
-- Vercel
-- Netlify
-- Cloudflare Pages
-
-Backend should be deployed separately on Render or Railway.
-
-## License
-
-This project is for educational purposes.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
